@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Snake Game</title>
+</head>
+<body>
+
+    <h1>Snake Game</h1>
+    <canvas id="gamecanvas" width="400" height="400"></canvas>
+
+    <!-- Arrow Controls for Mobile -->
+    <div class="arrow-controls">
+        <button onclick="changeDirectionMobile('UP')">⬆️</button>
+        <div>
+            <button onclick="changeDirectionMobile('LEFT')">⬅️</button>
+            <button onclick="changeDirectionMobile('RIGHT')">➡️</button>
+        </div>
+        <button onclick="changeDirectionMobile('DOWN')">⬇️</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
